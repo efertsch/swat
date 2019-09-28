@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: url("https://swat-app-ma.s3.amazonaws.com/home-bg-3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  .intro {
+    width: 75%;
+    padding: 2rem;
+    h1,
+    p {
+      color: white;
+    }
+    h1 {
+      font-size: 5rem;
+    }
+  }
+}
