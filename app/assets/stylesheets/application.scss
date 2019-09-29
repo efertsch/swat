@@ -2,6 +2,8 @@
 @import "main";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
+$swat-primary-grey: #595353;
+
  * {
     margin: 0;
     padding: 0;
@@ -19,27 +21,26 @@
   }
 
   .btn-primary {
-    background-color: #B75901 !important;
-    border-color: #B75901 !important;
+    background-color: #C68229 !important;
+    border-color: #C68229 !important;
     &:hover {
-      border-color: darken(#B75901, 5%) !important;
-      background: darken(#B75901, 5%) !important;
+      border-color: darken(#C68229, 5%) !important;
+      background: darken(#C68229, 5%) !important;
     }
   }
 
-  .bg-light {
-    background-color: transparent !important;
-  }
 
   .navbar-brand,
   .nav-link {
-    color: white !important;
+    color: $swat-primary-grey
+ !important;
   }
 
   .navbar-toggler {
-    border-color: white !important;
+    border-color: $swat-primary-grey
+ !important;
   }
 
   .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(35,33,33)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
   }
